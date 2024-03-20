@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+		/>
+
+		<title>
+			Как строку букв превратить в боль для разработчика, или Что такое
+			интерфейсы в биотехе
+		</title>
+
+		<link rel="stylesheet" href="dist/reset.css" />
+		<link rel="stylesheet" href="dist/reveal.css" />
+		<link rel="stylesheet" href="dist/theme/dracula.css" />
+		<link rel="stylesheet" href="custom_styles.css" />
+		<link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" />
+	</head>
+	<body>
+		<div class="reveal">
+			<ul class="slides">
+				<!--Вступление-->
+				<section style="text-align: left">
+					<h3 style="font-size: 60px">
+						Как строку букв превратить в боль для разработчика, или <br />Что
+						такое интерфейсы в биотехе
+					</h3>
+					<br />
+					<div style="display: flex; flex-direction: row; align-items: center">
+						<img
+							src="img/me.jpg"
+							width="120"
+							alt="Мария Кондаурова"
+							style="border-radius: 50%; border: 5px solid white"
+						/>
+						<div
+							style="margin-left: 30px; display: flex; flex-direction: column"
+						>
+							<b>Мария Кондаурова</b>
+							<small>BIOCAD</small>
+						</div>
+					</div>
+				</section>
+				<section>
+					<div style="display: flex; flex-direction: row">
+						<img src="img/me_and_llama.jpg" alt="Я и ламы" width="50%" />
+						<div style="margin-left: 20px">
+							<p style="text-align: left">
+								Разрабатываю интерфейсы в Департаменте Вычислительной
+								<b>Биологии</b> в
+								<b>BIOCAD</b>
+							</p>
+							<table style="margin-top: 40px">
+								<tr>
+									<td>telegram</td>
+									<td>@Momomash</td>
+								</tr>
+								<tr>
+									<td>twitter</td>
+									<td>@mari_momos</td>
+								</tr>
+								<tr>
+									<td>github</td>
+									<td>@Momomash</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</section>
+				<!--конец вступления-->
+				<!-- ending start-->
+				<section>
+					<div
+						style="
+							display: flex;
+							flex-direction: row;
+							align-items: center;
+							justify-content: space-around;
+						"
+					>
+						<div>
+							<img
+								src="img/me.jpg"
+								width="250"
+								alt="Мария Кондаурова"
+								style="border-radius: 50%; border: 5px solid white"
+							/>
+							<p>BIOCAD</p>
+						</div>
+
+						<table>
+							<tr>
+								<td>telegram</td>
+								<td>@Momomash</td>
+							</tr>
+							<tr>
+								<td>twitter</td>
+								<td>@mari_momos</td>
+							</tr>
+							<tr>
+								<td>github</td>
+								<td>@Momomash</td>
+							</tr>
+						</table>
+					</div>
+				</section>
+			</ul>
+			<!-- finish! -->
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+				transition: 'none',
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+			});
+		</script>
+	</body>
+</html>
