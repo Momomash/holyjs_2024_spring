@@ -169,12 +169,21 @@
 					>
 				</section>
 				<section>
-					<!--TODO: добавить слайд про "зачем айти то?"-->
+					<h3>Зачем айти то?</h3>
+				</section>
+				<section>
+					<blockquote>
+						Сервис должен
+						<span class="fragment highlight-green" data-fragment-index="1"
+							>помогать принимать рациональные решения на основании всех
+							данных</span
+						>, которые были получены на этапе ранней разработки.
+					</blockquote>
 				</section>
 				<!-- Глава 1. Что за строка букв? end -->
-				<!-- Глава 2. F*ckup история: start -->
+				<!-- Глава 2. Про строку букв: start -->
 				<section>
-					<h2>Глава 2. F*ckup история:</h2>
+					<h2>Глава 2. Про строку букв:</h2>
 				</section>
 				<section>
 					<div class="r-stack">
@@ -263,7 +272,7 @@
 						<img src="img/2/meme4.jpeg" class="fragment" />
 					</div>
 				</section>
-				<!-- Глава 2. F*ckup история: end -->
+				<!-- Глава 2. Про строку букв: end -->
 
 				<!-- Глава 3. Решение: start -->
 				<section>
@@ -279,18 +288,36 @@
 				</section>
 				<section>
 					<h3 style="text-align: left">Svg</h3>
-					<ul style="list-style: none" class="fragment">
-						<li class="fragment">+ знакомо</li>
-						<li class="fragment">+ может вести себя как текст</li>
-						<!--TODO: здесь пример с выделением текста и поиском по нему в виде гифки-->
-						<br />
-						<li class="fragment">- DOM не меньше</li>
-						<!--TODO: здесь пример -->
-						<li class="fragment">- позиционирование каждой буквы</li>
-						<!--TODO: здесь пример -->
-						<li class="fragment">- не адаптивно</li>
-						<!--TODO: здесь пример -->
-					</ul>
+					<div
+						style="display: flex; flex-direction: row; align-items: flex-start"
+					>
+						<ul style="list-style: none">
+							<li class="fragment" data-fragment-index="1">+ хорошо знакомо</li>
+							<li class="fragment" data-fragment-index="2">
+								+ может вести себя как текст
+							</li>
+							<br />
+							<li class="fragment" data-fragment-index="3">- DOM не меньше</li>
+							<li class="fragment" data-fragment-index="3">
+								- позиционирование каждой буквы
+							</li>
+						</ul>
+						<div class="r-stack">
+							<video
+								data-autoplay
+								loop
+								src="img/3/mov1.mov"
+								data-fragment-index="2"
+								class="fragment"
+							></video>
+							<img
+								src="img/3/code1.png"
+								class="fragment"
+								data-fragment-index="3"
+								width="100%"
+							/>
+						</div>
+					</div>
 				</section>
 				<section>
 					<h3 style="text-align: left">Canvas</h3>
@@ -303,8 +330,7 @@
 				<section>
 					<h3>Custom highlighter API</h3>
 				</section>
-				<section>
-					<!--TODO: Здесь скриншот моего выступления с Holy со слайдом про API-->
+				<section data-background="img/3/me1.png">
 					<!--TODO: Здесь же краткая гифка про возможности API-->
 				</section>
 				<section>
