@@ -339,6 +339,34 @@
 					</div>
 				</section>
 				<section>
+					<div style="display:flex; flex-direction: row; align-items: center">
+						<div>
+							<p><a href="https://react.dev/reference/react/Profiler" target="_blank">< React.Profiler ></a></p>
+							<img src="img/2/profiler.png">
+						</div>
+						<div style=" margin-left: 10px; text-align: left" class="fragment">
+							<p>id</p>
+							<p class="fragment highlight-current-green" data-fragment-index="1">phase: mount/update/nested</p>
+							<p class="fragment highlight-current-green" data-fragment-index="1">actualDuration</p>
+							<p class="fragment highlight-current-green" data-fragment-index="1">baseDuration</p>
+							<p>startTime</p>
+							<p>CommitTime</p>
+						</div>
+					</div>
+				</section>
+				<section>
+					<div style="display: flex;flex-direction: row; align-items: flex-start">
+						<div style="flex-grow: 1">
+						<p>Первый рендер</p>
+						<img src="img/2/profiler1.png">
+						</div>
+						<div style="flex-grow: 1" class="fragment">
+							<p>Клик switch-а</p>
+							<img src="img/2/profiler2.png">
+						</div>
+					</div>
+				</section>
+				<section>
 					<div class="r-stack">
 						<div>
 							<div class="r-stack">
@@ -615,9 +643,43 @@
 					</div>
 				</section>
 				<section>
-					<p style="color: red">
-						WIP: здесь душная аналитика изменения производительности
-					</p>
+					<p style="text-align: left">Первый рендер</p>
+					<div style="display: flex">
+						<div style="width: 45%; display: flex; flex-direction: column">
+							<p style="color: red; text-align: left">До:</p>
+							<img src="img/3/profiler1.png"/>
+						</div>
+						<div style="width: 45%; display: flex; flex-direction: column">
+							<p style="color: yellowgreen; text-align: left">После:</p>
+							<img src="img/3/profiler3.png"/>
+						</div>
+					</div>
+				</section>
+				<section>
+					<p style="text-align: left">Клик по switch-у</p>
+					<div style="display: flex">
+						<div style="width: 45%; display: flex; flex-direction: column">
+							<p style="color: red; text-align: left">До:</p>
+							<img src="img/3/profiler2.png"/>
+						</div>
+						<div style="width: 45%; display: flex; flex-direction: column">
+							<p style="color: yellowgreen; text-align: left">После:</p>
+							<img src="img/3/profiler4.png"/>
+						</div>
+					</div>
+				</section>
+				<section>
+					<p style="text-align: left">Размер DOM</p>
+					<div style="display: flex">
+						<div style="width: 45%; display: flex; flex-direction: column">
+							<p style="color: red; text-align: left">До:</p>
+							<img src="img/3/analitics1.png"/>
+						</div>
+						<div style="width: 45%; display: flex; flex-direction: column">
+							<p style="color: yellowgreen; text-align: left">После:</p>
+							<img src="img/3/analitics2.png"/>
+						</div>
+					</div>
 				</section>
 				<section>
 					<h4>Если захотите прикрутить API Custom Highlight</h4>
